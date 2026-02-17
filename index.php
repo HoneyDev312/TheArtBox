@@ -4,7 +4,7 @@
 <?php require_once(__DIR__ . '/header.php'); ?>
 
 <main>
-    <div id="liste-artworks">
+    <div id="list-artworks">
 
         <!-- Boucle sur le tableau des artworks pour factoriser l'affichage -->
         <?php foreach ($artworks as $artwork) : ?>

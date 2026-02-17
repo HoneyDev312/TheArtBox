@@ -20,7 +20,7 @@ foreach ($artworks as $artwork) {
         <div id="img-artwork">
             <img src=<?php echo $a["imgSrc"] ?> alt=<?php echo $a["title"] ?>>
         </div>
-        <div id="contenu-artwork">
+        <div id="content-artwork">
             <h1><?php echo $a["title"] ?></h1>
             <p class="description"><?php echo $a["artist"] ?></p>
             <p class="description-complete">

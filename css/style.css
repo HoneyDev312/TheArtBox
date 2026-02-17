@@ -43,7 +43,7 @@ footer {
   font-size: 12px;
 }
 
-#liste-artworks {
+#list-artworks {
   display: flex;
   flex-wrap: wrap;
 }
@@ -94,7 +94,7 @@ footer {
   display: block;
 }
 
-#contenu-artwork {
+#content-artwork {
   max-width: 470px;
 }
 
@@ -106,7 +106,7 @@ form {
   padding: 50px 10px;
 }
 
-.fiel-form {
+.field-form {
   display: flex;
   flex-direction: column;
   margin-bottom: 25px;
@@ -146,7 +146,7 @@ input[type="submit"] {
     width: 100%;
   }
 
-  #contenu-artwork {
+  #content-artwork {
     width: 100%;
     margin: auto;
   }
