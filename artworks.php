@@ -1,5 +1,5 @@
 <?php
-$oeuvres = [
+$artworks = [
     [
         "id" => 1,
         "title" => "Dodomu",
@@ -11,7 +11,7 @@ $oeuvres = [
         "id" => 2,
         "title" => "Aashaaheen Baadal",
         "artist" => "Anaisha Devi",
-        "description" => "Sur cette oeuvre conceptuelle à la fois organique, minérale et liquide, Anaisha Devi nous transporte dans un nuage noir envoûtant. Un sombre tableau qui, par son verni éclatant, rayonne tel un marbre poli. Une oeuvre à la cohérence transcendantale, exécutée à la perfection",
+        "description" => "Sur cette artwork conceptuelle à la fois organique, minérale et liquide, Anaisha Devi nous transporte dans un nuage noir envoûtant. Un sombre tableau qui, par son verni éclatant, rayonne tel un marbre poli. Une artwork à la cohérence transcendantale, exécutée à la perfection",
         "imgSrc" => "img/pawel-czerwinski-3.png",
     ],
     [
