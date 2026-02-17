@@ -18,8 +18,8 @@
     </div>
 
     <div class='field-form'>
-        <label for="picture">Photo sde l'oeuvre</label>
-        <input type="file" id="picture" name="picture" required />
+        <label for="image">URL de l'image</label>
+        <input type="url" name="image" id="image">
     </div>
 
     <button type="submit">Envoyer</button>
