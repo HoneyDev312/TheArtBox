@@ -1,5 +1,5 @@
 <?php
-$artworks = [
+$oeuvres = [
     [
         "id" => 1,
         "title" => "Dodomu",
