@@ -11,15 +11,16 @@
         <label for="name">Nom de l'artiste :</label>
         <input type="text" id="name" name="name" required>
     </div>
+
+    <div class='field-form'>
+        <label for="picture">URL de l'image</label>
+        <input type="url" name="picture" id="picture">
+    </div>
+
     <div class='field-form'>
         <label for="description">Description de l'oeuvre :</label>
         <textarea id="story" name="story" rows="5" cols="33" required>Décrivez l'oeuvre ....
         </textarea>
-    </div>
-
-    <div class='field-form'>
-        <label for="image">URL de l'image</label>
-        <input type="url" name="image" id="image">
     </div>
 
     <button type="submit">Envoyer</button>
