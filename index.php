@@ -1,6 +1,6 @@
 <?php
 require_once(__DIR__ . '/databaseconnect.php');
-require_once(__DIR__ . '/artworks.php');
+require_once(__DIR__ . '/database.php');
 ?>
 
 <!-- inclusion du header du site -->

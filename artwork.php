@@ -1,6 +1,6 @@
 <?php
 require_once(__DIR__ . '/databaseconnect.php');
-require_once(__DIR__ . '/artworks.php');
+require_once(__DIR__ . '/database.php');
 
 
 $id_error = NULL;
@@ -39,7 +39,7 @@ $url_error = $id_error || empty($artwork)
     <?php if ($url_error) : ?>
         <div class="error-container">
             <h3>Désolé, une erreur est survenue, veuillez retourner à la page d'acceuil</h3>
-            <a href="index.php" class="link-home">ACCUEIL</a>
+            <a href="index.php" class="default-btn">ACCUEIL</a>
         </div>
     <?php else : ?>
         <article id="detail-artwork">
