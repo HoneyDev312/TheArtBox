@@ -55,7 +55,7 @@ try {
     ]);
 
     // recharge la page recette
-    header('Location: index.php?success=1', true, 303);
+    header('Location: artwork.php?id=' . $mysqlClient->lastInsertId());
     unset($_SESSION['FORM_ERRORS']);
     unset($_SESSION['FORM_ANSWERS']);
 
