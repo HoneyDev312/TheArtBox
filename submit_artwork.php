@@ -3,10 +3,10 @@ session_start();
 
 require_once(__DIR__ . '/databaseconnect.php');
 
-$artwork_title = trim($_POST['title'] ?? '');
-$artwork_artist = trim($_POST['artist'] ?? '');
-$artwork_url = trim($_POST['url'] ?? '');
-$artwork_description = trim($_POST['description'] ?? '');
+$artwork_title = htmlspecialchars(trim($_POST['title'] ?? ''));
+$artwork_artist = htmlspecialchars(trim($_POST['artist'] ?? ''));
+$artwork_url = htmlspecialchars(trim($_POST['url'] ?? ''));
+$artwork_description = htmlspecialchars(trim($_POST['description'] ?? ''));
 $errors = [];
 
 $_SESSION['FORM_ANSWERS'] = [
